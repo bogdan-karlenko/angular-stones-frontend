@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { StonesDashboardComponent } from './stones-dashboard/stones-dashboard.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StonesDashboardComponent
   ],
   imports: [
     BrowserModule
